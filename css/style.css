@@ -108,8 +108,6 @@ Page Splash
   width: 100%;
 
   background-color: #ffffff;
-  background-size: cover;
-
   display: table;
 }
 
@@ -147,6 +145,7 @@ Services Page Splash
 
 .services.page-splash {
   background: url('../img/services-page-splash.jpg') 50% 0 fixed;
+  background-size: cover;
 }
 
 /*
@@ -157,6 +156,7 @@ About Page Splash
 
 .about.page-splash {
   background: url('../img/about-page-splash.jpg') 50% 0 fixed;
+  background-size: cover;
 }
 
 /*
@@ -167,6 +167,7 @@ Contact Page Splash
 
 .contact.page-splash {
   background: url('../img/contact-page-splash.jpg') 50% 0 fixed;
+  background-size: cover;
 }
 
 /*
