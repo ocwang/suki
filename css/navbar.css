@@ -94,18 +94,18 @@ Header/ Navigation
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 7px 0;
+  padding: 9px 0;
   font-size: 18px;
   line-height: 20px;
 }
 
 .navbar-brand img {
-  height: 36px;
+  height: 32px;
   vertical-align: top;
 }
 
 .navbar-brand h3 {
-  margin: 9px 6px 5px;
+  margin: 9px 6px 1px;
   font-size: 20px;
   display: inline-block;
   font-weight: 400;

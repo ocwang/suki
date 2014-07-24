@@ -33,6 +33,319 @@ Splash
   background: url('../img/splash.jpg') 50% 0 fixed;
   background-color: #ffffff;
   background-size: cover;
+
+  display: table;
+}
+
+#splash-inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+#splash-inner h1 {
+  color: #fff;
+  font-size: 46px;
+}
+
+#splash-inner h1 span {
+  background-color: #b31217;
+  padding: 10px 4px;
+}
+
+#splash-inner h2 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 58px;
+}
+
+#splash-inner h2 span {
+  background-color: #b31217;
+  padding: 8px 4px;
+}
+
+@media (min-width: 768px) {
+  #splash-inner h1 {
+    font-size: 64px;
+  }
+
+  #splash-inner h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #splash-inner h1 {
+    font-size: 70px;
+  }
+
+  #splash-inner h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #splash-inner h1 {
+    font-size: 90px;
+    margin-bottom: 30px;
+  }
+
+  #splash-inner h2 {
+    font-size: 40px;
+  }
+
+}
+
+/*
+--------------------------------------------------------------
+Page Splash
+--------------------------------------------------------------
+*/
+
+.page-splash {
+  height: 400px;
+  width: 100%;
+
+  background-color: #ffffff;
+  background-size: cover;
+
+  display: table;
+}
+
+.page-splash-inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.page-splash-inner h1 {
+  color: #fff;
+  font-size: 46px;
+  text-align: center;
+}
+
+.page-splash-inner h1 span {
+  background-color: #b31217;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .page-splash-inner h1 {
+    font-size: 64px;
+    text-align: left;
+    margin-left: 100px;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Services Page Splash
+--------------------------------------------------------------
+*/
+
+.services.page-splash {
+  background: url('../img/services-page-splash.jpg') 50% 0 fixed;
+}
+
+/*
+--------------------------------------------------------------
+About Page Splash
+--------------------------------------------------------------
+*/
+
+.about.page-splash {
+  background: url('../img/about-page-splash.jpg') 50% 0 fixed;
+}
+
+/*
+--------------------------------------------------------------
+Contact Page Splash
+--------------------------------------------------------------
+*/
+
+.contact.page-splash {
+  background: url('../img/contact-page-splash.jpg') 50% 0 fixed;
+}
+
+/*
+--------------------------------------------------------------
+Footer
+--------------------------------------------------------------
+*/
+
+footer h4 {
+  text-transform: uppercase;
+}
+
+#details {
+  padding: 40px 15px 40px 15px;
+  margin-bottom: 20px;
+}
+
+/*
+--------------------------------------------------------------
+Site Map
+--------------------------------------------------------------
+*/
+
+#site-map ul {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+#site-map ul > li {
+  margin-bottom: 3px;
+}
+
+#site-map ul li a,
+#site-map ul li a:hover,
+#site-map ul li a:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*
+--------------------------------------------------------------
+Social Media Links
+--------------------------------------------------------------
+*/
+
+#social-media {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#social-media ul {
+  float: left;
+  margin: 0 !important;
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.socials li {
+  float: left;
+  display: inline;
+  margin: 0 2px 2px 2px;
+}
+
+.socials li a {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 60px;
+  color: #ffffff;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.socials li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 60px;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -khtml-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.socials li a:hover {
+    color: #ffffff;
+}
+
+.socials li a:hover:before {
+    opacity: 1;
+  filter: alpha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.socials li.social-twitter a:before {
+  background-image: url("../img/twitter.png");
+  background-color: #00bef6;
+}
+.socials li.social-twitter a:hover { background-color: #00bef6; }
+
+.socials li.social-facebook a:before {
+  background-image: url("../img/facebook.png");
+  background-color: #3b5998;
+}
+.socials li.social-facebook a:hover { background-color: #3b5998; }
+
+.socials li.social-youtube a:before {
+  background-image: url("../img/youtube.png");
+  background-color: #af2b26;
+}
+.socials li.social-youtube a:hover { background-color: #af2b26; }
+
+.socials li.social-instagram a:before {
+  background-image: url("../img/instagram.png");
+  background-color: #517fa4;
+}
+.socials li.social-instagram a:hover { background-color: #517fa4; }
+
+
+/*
+--------------------------------------------------------------
+Affliates
+--------------------------------------------------------------
+*/
+#affiliates h4 {
+}
+
+@media (min-width: 992px) {
+  #affiliates h4 {
+    text-align: center;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Copyright
+--------------------------------------------------------------
+*/
+
+#copyright {
+  display: table;
+  height: 50px;
+}
+
+#copyright-inner {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /*
