@@ -1,0 +1,246 @@
+/*
+--------------------------------------------------------------
+Menu Categories
+--------------------------------------------------------------
+*/
+
+#menu-categories {
+  margin: 20px 0 55px;
+}
+
+#menu-categories > .container-fluid {
+  padding: 0 40px;
+}
+
+/*
+--------------------------------------------------------------
+Menu Categories Title
+--------------------------------------------------------------
+*/
+
+#menu-categories-title {
+  padding: 55px 0 35px;
+}
+
+#menu-categories-title h1 {
+  font-size: 40px;
+  margin: 0 0 7px;
+}
+
+/*
+--------------------------------------------------------------
+Menu Categories Subtitle
+--------------------------------------------------------------
+*/
+
+#menu-categories-title h3 {
+  margin: 0;
+}
+
+/*
+--------------------------------------------------------------
+Individual Menu Categories
+--------------------------------------------------------------
+*/
+
+#menu-categories .col-sm-3 > a {
+  display: block;
+  /*-webkit-transition: opacity ease-in-out 200ms;
+  -moz-transition: opacity ease-in-out 200ms;
+  -o-transition: opacity ease-in-out 200ms;
+  transition: opacity ease-in-out 200ms;*/
+
+}
+
+#menu-categories .col-sm-3 > a:focus,
+#menu-categories .col-sm-3 > a:hover {
+  text-decoration: none;
+  opacity: .85;
+}
+
+#menu-categories .col-sm-3 > a.appetizers.menu-category {
+  background-image: url('../img/tempura.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-categories .col-sm-3 > a.fish.menu-category {
+  background-image: url('../img/sushi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-categories .col-sm-3 > .entrees.menu-category {
+  background-image: url('../img/pho.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-categories .col-sm-3 > .desserts.menu-category {
+  background-image: url('../img/mochi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-name h3 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  /*text-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+  line-height: 450px;
+}
+
+/*Red background for hard to see category names*/
+.category-name h3 span {
+  padding: 6px 15px;
+  background-color: #b31217;
+}
+
+/*
+--------------------------------------------------------------
+Category Splashes
+--------------------------------------------------------------
+*/
+
+.category-splash {
+  height: 180px;
+  width: 100%;
+}
+
+.category-splash span {
+  background-color: #b31217;
+  padding: 6px 15px;
+  color: #fff;
+  line-height: 180px;
+}
+
+.category-splash h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+/*
+--------------------------------------------------------------
+Appetizers Splash
+--------------------------------------------------------------
+*/
+
+#appetizers-splash {
+  background: url('../img/tempura.jpg') 50% 0 fixed;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+/*
+--------------------------------------------------------------
+Appetizers
+--------------------------------------------------------------
+*/
+
+#appetizers {
+  margin: 20px 0 55px;
+}
+
+/*
+--------------------------------------------------------------
+Fish Splash
+--------------------------------------------------------------
+*/
+
+#fish-splash {
+  background: url('../img/sushi.jpg') 50% 0 fixed;
+  background-color: #ffffff;
+  background-size: cover;
+
+}
+
+/*
+--------------------------------------------------------------
+Fish
+--------------------------------------------------------------
+*/
+
+#fish {
+  margin: 40px 0 55px;
+}
+
+.col-md-3 {
+  margin: 8px 0;
+}
+
+#tuna-maguro {
+
+}
+
+.fish-menu-item {
+  background: url('../img/tuna-maguro.jpg');
+  background-size: cover;
+  background-position: center;
+
+  height: 200px;
+  padding-top: 6px;
+}
+
+.fish-menu-item h4 span {
+  color: #fff;
+  background-color: #b31217;
+  padding: 5px 15px;
+  /*line-height: 190px;*/
+}
+
+.fish-menu-item h4 {
+  /*text-align: center;*/
+  margin: 0;
+}
+
+/*
+--------------------------------------------------------------
+Entrees Splash
+--------------------------------------------------------------
+*/
+
+#entrees-splash {
+  background: url('../img/pho.jpg') 50% 0 fixed;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+/*
+--------------------------------------------------------------
+Entrees
+--------------------------------------------------------------
+*/
+
+#entrees {
+  margin: 20px 0 55px;
+}
+
+/*
+--------------------------------------------------------------
+Desserts Splash
+--------------------------------------------------------------
+*/
+
+#desserts-splash {
+  background: url('../img/mochi.jpg') 50% 0 fixed;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+/*
+--------------------------------------------------------------
+Desserts
+--------------------------------------------------------------
+*/
+
+#desserts {
+  margin: 20px 0 55px;
+}
+
+
+

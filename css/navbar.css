@@ -4,8 +4,6 @@ Header/ Navigation
 --------------------------------------------------------------
 */
 
-
-
 /*
 --------------------------------------------------------------
 .navbar-default
@@ -68,6 +66,7 @@ Header/ Navigation
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
   border-radius: 0;
   margin-bottom: 0;
 }
