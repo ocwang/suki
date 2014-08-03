@@ -61,7 +61,7 @@ function resizeSplash() {
 
 function calculateHeaderShadow() {
   if($(window).width() > 768){
-    if ($(".navbar").offset().top) {
+    if ($(".navbar").offset().top > 0) {
       $("nav").addClass("has-shadow");
     } else {
       $("nav").removeClass("has-shadow");
