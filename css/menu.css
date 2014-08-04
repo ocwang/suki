@@ -86,18 +86,25 @@ Individual Menu Categories
   background-size: cover;
 }
 
+.category-name {
+  display: table;
+  height: 450px;
+}
+
 .category-name h3 {
   margin: 0;
-  text-align: center;
+
   color: #fff;
-  font-size: 36px;
+  font-size: 28px;
   /*text-shadow: 0 2px 3px rgba(0,0,0,.4);*/
-  line-height: 450px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /*Red background for hard to see category names*/
 .category-name h3 span {
   padding: 6px 15px;
+
   background-color: #b31217;
 }
 
@@ -108,6 +115,7 @@ Category Splashes
 */
 
 .category-splash {
+  background-color: #b31217;
   height: 180px;
   width: 100%;
 }
@@ -126,15 +134,43 @@ Category Splashes
 
 /*
 --------------------------------------------------------------
-Appetizers Splash
+Menu
 --------------------------------------------------------------
 */
 
-#appetizers-splash {
-  background: url('../img/tempura.jpg') 50% 0 fixed;
-  background-color: #ffffff;
-  background-size: cover;
+/*
+--------------------------------------------------------------
+Menu Item
+--------------------------------------------------------------
+*/
+
+.menu-item {
+  height: 200px;
+  padding-top: 6px;
 }
+
+.col-md-3 {
+  margin: 8px 0;
+}
+
+.menu-item h4 span {
+  color: #fff;
+  background-color: #b31217;
+  padding: 5px 15px;
+  /*line-height: 190px;*/
+  opacity: .85;
+}
+
+.menu-item h4 {
+  /*text-align: center;*/
+  margin: 0;
+}
+
+/*
+--------------------------------------------------------------
+Appetizers Splash
+--------------------------------------------------------------
+*/
 
 /*
 --------------------------------------------------------------
@@ -143,7 +179,31 @@ Appetizers
 */
 
 #appetizers {
-  margin: 20px 0 55px;
+  margin: 40px 0 55px;
+}
+
+#gyoza.menu-item {
+  background: url('../img/gyoza.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#edamame.menu-item {
+  background: url('../img/edamame.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#calamari.menu-item {
+  background: url('../img/calamari.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#tempura.menu-item {
+  background: url('../img/tempura-menu.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /*
@@ -151,13 +211,6 @@ Appetizers
 Fish Splash
 --------------------------------------------------------------
 */
-
-#fish-splash {
-  background: url('../img/sushi.jpg') 50% 0 fixed;
-  background-color: #ffffff;
-  background-size: cover;
-
-}
 
 /*
 --------------------------------------------------------------
@@ -169,129 +222,96 @@ Fish
   margin: 40px 0 55px;
 }
 
-.col-md-3 {
-  margin: 8px 0;
-}
-
-
-
-.fish-menu-item {
-  background: url('../img/tuna-maguro.jpg');
-  background-size: cover;
-  background-position: center;
-
-  height: 200px;
-  padding-top: 6px;
-}
-
-.fish-menu-item h4 span {
-  color: #fff;
-  background-color: #b31217;
-  padding: 5px 15px;
-  /*line-height: 190px;*/
-  opacity: .85;
-}
-
-.fish-menu-item h4 {
-  /*text-align: center;*/
-  margin: 0;
-}
-
-#tuna-maguro.fish-menu-item {
+#tuna-maguro.menu-item {
   background: url('../img/tuna-maguro.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#tuna-belly-toro.fish-menu-item {
+#tuna-belly-toro.menu-item {
   background: url('../img/tuna-belly-toro.jpg');
   background-size: cover;
   background-position: center;
 }
 
 
-#white-tuna-albacore.fish-menu-item {
+#white-tuna-albacore.menu-item {
   background: url('../img/white-tuna-albacore.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#salmon-sake.fish-menu-item {
+#salmon-sake.menu-item {
   background: url('../img/salmon-sake.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#yellow-tail-hamachi.fish-menu-item {
+#yellow-tail-hamachi.menu-item {
   background: url('../img/yellow-tail-hamachi.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#striped-bass-suzuki.fish-menu-item {
+#striped-bass-suzuki.menu-item {
   background: url('../img/striped-bass-suzuki.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#mackerel-saba.fish-menu-item {
+#mackerel-saba.menu-item {
   background: url('../img/mackerel-saba.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#salmon-roe-ikura.fish-menu-item {
+#salmon-roe-ikura.menu-item {
   background: url('../img/salmon-roe-ikura.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#egg-tamago.fish-menu-item {
+#egg-tamago.menu-item {
   background: url('../img/egg-tamago.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#octopus-tako.fish-menu-item {
+#octopus-tako.menu-item {
   background: url('../img/octopus-tako.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#shrimp-ama-ebi.fish-menu-item {
+#shrimp-ama-ebi.menu-item {
   background: url('../img/shrimp-ama-ebi.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#crab-stick-kani.fish-menu-item {
+#crab-stick-kani.menu-item {
   background: url('../img/crab-stick-kani.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#eel-unagi.fish-menu-item {
+#eel-unagi.menu-item {
   background: url('../img/eel-unagi.jpg');
   background-size: cover;
   background-position: center;
 }
 
-#king-crab.fish-menu-item {
+#king-crab.menu-item {
   background: url('../img/king-crab.jpg');
   background-size: cover;
   background-position: center;
 }
+
 /*
 --------------------------------------------------------------
 Entrees Splash
 --------------------------------------------------------------
 */
-
-#entrees-splash {
-  background: url('../img/pho.jpg') 50% 0 fixed;
-  background-color: #ffffff;
-  background-size: cover;
-}
 
 /*
 --------------------------------------------------------------
@@ -300,7 +320,19 @@ Entrees
 */
 
 #entrees {
-  margin: 20px 0 55px;
+  margin: 40px 0 55px;
+}
+
+#pho.menu-item {
+  background: url('../img/pho.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hibachi.menu-item {
+  background: url('../img/hibachi.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /*
@@ -309,12 +341,6 @@ Desserts Splash
 --------------------------------------------------------------
 */
 
-#desserts-splash {
-  background: url('../img/mochi.jpg') 50% 0 fixed;
-  background-color: #ffffff;
-  background-size: cover;
-}
-
 /*
 --------------------------------------------------------------
 Desserts
@@ -322,8 +348,19 @@ Desserts
 */
 
 #desserts {
-  margin: 20px 0 55px;
+  margin: 40px 0 55px;
 }
 
+#mochi.menu-item {
+  background: url('../img/mochi.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#assorted-fruits.menu-item {
+  background: url('../img/assorted-fruits.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 
