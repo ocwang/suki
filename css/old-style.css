@@ -1,0 +1,260 @@
+/*
+--------------------------------------------------------------
+Hook
+--------------------------------------------------------------
+*/
+
+#hook {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#hook-img img {
+  border-bottom: 8px solid #b31217;
+}
+
+.hook-text strong {
+  color: #b31217;
+}
+
+@media (min-width: 768px) {
+  #hook-img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .hook-text h1 {
+    font-size: 45px;
+  }
+
+  .hook-text p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  #hook {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hook-text h1 {
+    font-size: 55px;
+  }
+
+  .hook-text p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hook-text h1 {
+    font-size: 70px;
+  }
+  .hook-text p {
+    font-size: 22px;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Main Content Heading
+--------------------------------------------------------------
+*/
+
+#main-content-heading {
+  background: url('../img/contact-page-splash.jpg') 50% 0 fixed;
+}
+
+/*
+--------------------------------------------------------------
+Main Content
+--------------------------------------------------------------
+*/
+
+#main-content-inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#main-content img {
+  border-bottom: 4px solid #b31217;
+}
+
+#main-content-title h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+#main-content h4 {
+  font-size: 26px;
+}
+
+@media (min-width: 768px) {
+  #main-content-inner {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  #main-content-title h1 {
+    font-size: 55px;
+  }
+
+  .hook-text p {
+    font-size: 14px;
+  }
+
+  #main-content h4 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-content-inner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #main-content-title h1 {
+    font-size: 65px;
+  }
+
+  .hook-text p {
+    font-size: 18px;
+  }
+
+  #main-content h4 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hook-text p {
+    font-size: 22px;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Secondary Content Heading
+--------------------------------------------------------------
+*/
+
+#contact-heading {
+  background: url('../img/section-splash-3.jpg') 50% 0 fixed;
+}
+
+/*
+--------------------------------------------------------------
+Heading Splash
+--------------------------------------------------------------
+*/
+
+.heading-splash {
+  position: relative;
+  height: auto;
+  width: 100%;
+  z-index: 999;
+}
+
+.heading-splash-inner {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.heading-splash-text {
+  color: #ffffff;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.heading-splash-text h1 {
+  line-height: 55px;
+}
+
+@media (min-width: 768px) {
+  .heading-splash-text > h1 {
+    font-size: 78px;
+        line-height: 110px;
+  }
+
+  .heading-splash-text {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading-splash-text {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .heading-splash-text {
+    padding-top: 210px;
+    padding-bottom: 210px;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Contact
+--------------------------------------------------------------
+*/
+
+#contact-inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#contact-lead h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  #contact-inner {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  #contact-lead h1 {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact-inner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #contact-lead h1 {
+    font-size: 65px;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Contact Details
+--------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------
+Contact Form
+--------------------------------------------------------------
+*/
+
+#contact-form {
+  background-image: url('../img/contact-form-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

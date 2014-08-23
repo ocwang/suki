@@ -1,0 +1,67 @@
+/*
+--------------------------------------------------------------
+About Page Lead
+--------------------------------------------------------------
+*/
+
+@media (min-width: 768px) {
+  section.page-lead>.container {
+    display: table;
+  }
+
+  section.page-lead>.container>.row {
+    display: table-row;
+  }
+
+  section.page-lead>.container>.row>div {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+section.page-lead img {
+  border-bottom: 5px solid #b31217;
+}
+
+section.page-lead h1 {
+  font-size:  26px;
+  margin: 15px 0 5px;
+}
+
+section.page-lead p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  section.page-lead h1 {
+    font-size:  30px;
+    margin: 25px 0 10px;
+  }
+
+  section.page-lead p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  section.page-lead h1 {
+    font-size:  56px;
+    margin: 0;
+
+  }
+
+  section.page-lead p {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.page-lead h1 {
+    font-size:  66px;
+  }
+
+  section.page-lead p {
+    font-size: 22px;
+  }
+
+}
